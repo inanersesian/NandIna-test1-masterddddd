@@ -1,0 +1,41 @@
+body{
+
+    background-position: center;
+    background-color: black;
+}
+h1 {
+    color: grey;
+    text-align: center;
+    font-family: monospace;
+    font-size: 40px;
+}
+p {
+    color: white;
+    text-align: center;
+    font-family: monospace;
+    font-size: 20px;
+    background-color: black;
+}
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+
+footer {
+    color: black;
+    position: fixed;
+    font-size: 15px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #bfbcbb;
+    text-align: center;
+    background-color: hsl(20, 30%, 70%);
+
+
+
+}
